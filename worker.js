@@ -259,7 +259,7 @@ async function handleRequest(request) {
   // 如果path为空, 即直接访问本worker
   // If visit this worker directly (no path)
   if (!path) {
-    return Response.redirect("https://github.com/dyanst/Url-Shorten-Worker", 302)
+    return Response.redirect("https://www.wlul.top/", 302)
     /* new Response(html404, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
